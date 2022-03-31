@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: helm
-    repoURL: https://github.com/vfarcic/argocd-app1.git
+    repoURL: https://github.com/dhano6/argocd-app1.git
     targetRevision: HEAD
     helm: # overwrite some values when deploying application
       values: |
