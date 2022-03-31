@@ -15,8 +15,8 @@ spec:
       values: |
         image:
           tag: latest
-        ingress:
-          host: app1.$INGRESS_HOST.xip.io
+        #ingress:
+        #  host: app1.$INGRESS_HOST.xip.io
       version: v3
   destination:
     namespace: production
