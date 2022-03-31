@@ -1,0 +1,5 @@
+kubectl create namespace production
+
+http://argocd.$INGRESS_HOST.xip.io
+http://app1.$INGRESS_HOST.xip.io
+http://app2.$INGRESS_HOST.xip.io
